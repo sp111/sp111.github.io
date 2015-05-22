@@ -1,2 +1,2 @@
 # sp111.github.io
-demo application for laravel customer
+demo application for laravel
