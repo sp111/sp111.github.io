@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" ng-app="customersManagement">
+<head>
+    <meta charset="utf-8">
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AngularJS App</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Lumen</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/customers">Customers</a></li>
+                </ul>
+
+                
+            </div>
+        </div>
+    </nav>
+<!-- <ul class="menu">
+    <li><a href="#/dummy">dummy</a></li>
+    <li><a href="#/customers">customer-list</a></li>
+    <li><a href="#/customer/1/edit">customer-detail/1</a></li>
+    <li><a href="#/customer/create">customer-creation</a></li>
+</ul> -->
+
+<div ng-view></div>
+
+<!-- JQuery ================================================================ -->
+<script src="js/jquery/jquery-2.0.3.js"></script>
+
+<!-- Bootstrap ============================================================= -->
+<script src="js/bootstrap/bootstrap.js"></script>
+
+<!-- AngularJS ============================================================= -->
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+-->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-resource.js"></script>
+
+<!-- AngularJS App Code ==================================================== -->
+<script src="js/client/app.js"></script>
+
+<script src="js/client/controllers.js"></script>
+<script src="js/client/filters.js"></script>
+<script src="js/client/directives.js"></script>
+
+<script src="js/client/customer/controllers/customers_controller.js"></script>
+<script src="js/client/customer/services/customers_service.js"></script>
+
+</body>
+</html>
+
